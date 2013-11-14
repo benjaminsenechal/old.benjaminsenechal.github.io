@@ -1,4 +1,5 @@
 activate :gzip
+activate :livereload
 activate :syntax
 activate :directory_indexes
 
