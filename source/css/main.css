@@ -152,6 +152,15 @@ ul{
     height: 320px;
 }
 
+.imageSize{
+    width: 450px;
+}
+
+.informations{
+    text-align: center;
+    padding: 10px;
+}
+
 @media screen and (min-width: 200px) and (max-width: 640px){
 
 .menu a{
@@ -160,6 +169,10 @@ ul{
 
 .titleCenter h1{
     font-size: 20px;
+}
+
+.imageSize{
+    width: 300px;
 }
 
 }

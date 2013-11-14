@@ -1,4 +1,3 @@
-activate :livereload
 activate :gzip
 activate :syntax
 activate :directory_indexes
@@ -16,4 +15,3 @@ activate :deploy do |deploy|
   deploy.branch       = 'master'
   deploy.build_before = true
 end
-
