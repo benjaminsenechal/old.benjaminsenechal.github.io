@@ -13,6 +13,10 @@
 
 }
 
+.middle{
+    margin: 0 auto;
+}
+
 .pic{
     background-image: url("/img/ben.jpeg");
     -moz-box-shadow: 2px 2px 2px 1px #000000;
@@ -125,8 +129,8 @@ ul{
 }
 
 .contenthome {
-    margin: 40px;
     text-align: justify;
+    padding: 10px 10px 10px 0px;
 }
 
 .sectioncv{
