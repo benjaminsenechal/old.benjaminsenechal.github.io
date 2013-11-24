@@ -306,7 +306,16 @@ a:hover{
   padding-left: 10%;
 }
 .items img{
-  height: 200px;
+  height: 170px;
+}
+
+.header h1{
+  padding-top: 50px;
+}
+.image-desc{
+  font-size: 15px;
+  left:10%;
+  bottom: 30%;
 }
 }
 
