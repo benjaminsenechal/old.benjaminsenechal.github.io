@@ -1,85 +1,238 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Accueil | Benjamin Sénéchal</title>
-        <meta name="description" content="Benjamin sénéchal - étudiant en ingenierie informatique à l'EPSI">
-        <meta name="viewport" content="width=device-width">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Benjamin sénéchal - étudiant en ingenierie informatique à l'EPSI">
+    <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <script src="/js/bootsrap.js"></script>
-    </head>
-    <body onload="initialize()">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-        <div class="container-fluid">
-            <div class="header">
-                <div class="pic"></div>
-                 <h1 id="name">Benjamin Sénéchal</h1>
-                 <h3 id="desc">Etudiant en Ingenierie Informatique à l' EPSI</h3>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="/cv">Parcours</a></li>
-                    <li><a href="/realisations">Réalisations</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="container">
-                <h1>Accueil</h1>
-<div class="row middle">
-    <div class="col-md-4">
-        <div class="item">
-            <img src="/img/epsi.png" alt="epsi"/>
-            <p>Une Ecole, un apprentissage.</p>
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <script src="/javascripts/vendor/jquery-1.8.0.min.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+  </head>
+
+  <body class="">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+   <div class="container-fluid">
+      <div class="navbar">
+        <button type="button" class="navbar-toggle toggle-custom" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left name">
+            <h1>Benjamin Senechal</h1>
+          </ul>
+          <ul class="nav navbar-nav navbar-right mynav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/cv">CV</a></li>
+              <li><a href="/realisations">Realizations</a></li>
+              <li><a href="/contact">Contact</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="cover header">
+        <h1>"Understand, love, want and design the future. Let's not fear it."</h1>
+      </div>
+      <div class="container-fluid">
+          <section class="intro">
+  <div>
+    <h1>Hello.</h1>
+    <p>I'm Benjamin Sénéchal, a french IT student. I'm 20 years old.</p>
+    <p>I build some cool things, web and mobile applications.</p>
+    <p>I'm looking for an internship in USA this years and hope you'll like my website portfolio.</p>
+  </div>
+</section>
+<section class="title-section about-t">
+  <h1>About</h1>
+</section>
+<section class="about">
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Bio</h2>
     </div>
-    <div class="col-md-4">
-        <div class="item">
-            <img src="/img/screeniPhone.png" alt="mobil"/>
-            <p>Le mobile et son avenir grandiose.</p>
-        </div>
+    <div class="col-md-6 content-about">
+      <p>I was born April 23, 1993. I graduated with a A-level with honours in France. After, I entered in IT school, <a href="http://epsi.fr">EPSI</a>. I studied mainly web and software technologies during my first two years. Now, in third year, I study, in addition, methods of project management.</p>
     </div>
-    <div class="col-md-4">
-        <div class="item">
-            <img src="/img/mac.png" alt="web"/>
-            <p>Le web et ses possibilités infinies.</p>
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Education</h2>
     </div>
-</div>
-<article class="contenthome">Etudiant à l'EPSI, j'ai pour ambition de devenir ingénieur en informatique après mes 5ans d'études. Je suis actuellement en troisième année.
-    Sérieux et ambitieux, je m'adapte rapidement aux projets (Professionnels et scolaires) et langages qui me sont proposés afin de satisfaire au mieux le client.
-    Membre d’une association étudiante concentrée sur le développement iPhone. (<a href="http://iepsi.fr/home">iepsi</a>) <br />
-    Actuellement à la recherche d'une nouvelle expérience dans le web ou la mobilité, je suis ouvert à tous projets. N'hesitez pas à me <a href="/contact">contacter</a>.
-</article>
-</div>
-
-            </div>
-            <div class="footer">
-                <div class="icons">
-                    <a href="https://www.facebook.com/benjamin.senechal"><img src="/img/Facebook.png" alt="Facebook"/></a>
-                    <a href="https://www.twitter.com/Benjaminsene"><img src="/img/Twitter.png" alt="Twitter"/></a>
-                    <a href="https://www.linkedin.com/in/benjaminsenechal"><img src="/img/LinkedIn.png" alt="LinkedIn"/></a>
-                    <a href="https://www.github.com/benjaminsenechal"><img src="/img/Github.png" alt="Github"/></a>
-                </div>
-            </div>
+    <div class="col-md-6 content-about">
+      <ul>
+        <li>2010/2011: A-levels in science @ <a href="http://mendes-france.lyc.ac-amiens.fr/">Pierre Mendes France, Péronne</a></li>
+        <li>2011/2012: Cycle préparatoire intégré 1 @ <a href="http://epsi.fr">EPSI</a></li>
+        <li>2012/2013: Cycle préparatoire intégré 2 @ <a href="http://epsi.fr">EPSI</a></li>
+        <li>2013/2014: 3ème année, Bachelor @ <a href="http://epsi.fr">EPSI</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Skills</h2>
+    </div>
+    <div class="col-md-6 content-about">
+      <h4>Languages</h4>
+      <ul>
+        <li>HTML/CSS : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div></li>
+        <li>PHP5 : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div></li>
+        <li>Javascript : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        <li>SQL : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        <li>C - C++ : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        <li>Objective-C : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        <li>JAVA : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        <li>Ruby - Ruby On Rails : <div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+      </ul>
+      <h4>Tools</h4>
+        <p>OOP - REST API - MVC - Merise - UML - GANTT / Xcode - Eclipse - PHPStorm - Git (GitHub) - iTerm - Subversion - Sublime Text 2 - Visual Studio 2010 - Windesign - Microsoft Office - Umbraco (CMS ASP.NET).</p>
+      <h4>Environments</h4>
+        <p>MacOs X, Windows.</p>
+      <h4>Hoobies</h4>
+        <ul>
+          <li>I love swim and skiing.</li>
+          <li>I read some cool stuffs: QG, L'entreprise, Blogs (Ray Wenderlich, FrenchWeb, iOS Dev Weekly...).</li>
+          <li>I hate IT technologies... No it's joke ! Obviously, I like and follow this.</li>
+          <li>I'm a big fan of Motorsports. Formula one & rally.</li>
+        </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 link">
+      <a href="" class="button">Download my resume</a>
+    </div>
+  </div>
+</section>
+<section class="title-section projects-t">
+  <h1>Projects</h1>
+</section>
+<section class="projects">
+  <div class="row">
+    <div class="col-md-6 items">
+      <a href="">
+        <div class="image-wrap">
+          <img class="image" src="/images/presentationepnet.png" alt="crédit agricole"/>
+          <div class="image-desc">
+            <h3>EPNet's iPhone application</h3>
+            <ul>
+                <li>Xcode 5</li>
+                <li>Git</li>
+                <li>Core data</li>
+                <li>REST API and JSON integration</li>
+                <li>Cocapods</li>
+                <li>AFNetworking</li>
+            </ul>
+          </div>
         </div>
+      </a>
+    </div>
+    <div class="col-md-6 items">
+      <a href="">
+        <div class="image-wrap">
+          <img class="image" src="/images/presentationca.png" alt="crédit agricole"/>
+          <div class="image-desc">
+            <h3>Crédit Agricole's iPad application</h3>
+            <ul>
+                <li>Xcode 5</li>
+                <li>REST API and JSON integration</li>
+                <li>MapKit</li>
+                <li>AFNetworking</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 items">
+      <a href=""></a>
+        <div class="image-wrap">
+          <img class="image" src="/images/presentationastelle.png" alt="Astelle architecture"/>
+          <div class="image-desc">
+            <h3>Astelle Architecture</h3>
+            <p>Website of an architectural agency based in Peronne, in France. It realizes various projects, houses or cultural places.</p>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-6 items">
+      <a href="">
+        <div class="image-wrap">
+          <img class="image" src="/images/presentationgrenouillere.png" alt="La grenouillere"/>
+          <div class="image-desc">
+            <h3>La grenouillère</h3>
+            <p>Website of a campsite located closer to the Somme Bay. It welcomes fishermen and tourists.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 link">
+      <a href="http://github.com/benjaminsenechal" class="button">More here during this year</a>
+    </div>
+  </div>
+</section>
+<section class="title-section vision-t">
+  <h1>Vision</h1>
+</section>
+<section class="vision">
+  <div class="row">
+    <!-- Thanks to icons8 -->
+    <div class="col-md-4 attribute">
+      <img src="/images/student2-512.png" alt="student">
+      <p>EPSI, an IT school. Learning day after day.</p>
+    </div>
+    <div class="col-md-4 attribute">
+      <img src="/images/iphone-512.png" alt="mobile">
+      <p>Mobility and its awesome future.</p>
+    </div>
+    <div class="col-md-4 attribute">
+      <img src="/images/mac_client-512.png" alt="web">
+      <p>Web and its growing possibilities.</p>
+    </div>
+  </div>
+</section>
+<section class="title-section career-t">
+  <h1>Career</h1>
+</section>
+<section class="career">
+  <div class="row">
+    <div class="col-md-12">
+      <p>
+      Benjamin is looking for an mobile and web agency for an 4-months internship. A mobile development firm with motivated and passionate team where I can produce good job and enlarge my skills for my future. If you are interesting by a very motivated student, please contact me by the following ways. I'd love to discuss further about my projects, iOS skills and many others things.
+      </p>
+    </div>
+  </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+</section>
 
-        <script>
-            var _gaq=[['_setAccount','UA-30844057-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+
+      </div>
+      <div class="footer">
+          <section class="title-section contact-t">
+            <h1>Contact</h1>
+          </section>
+          <div class="icons">
+              <a href="https://www.facebook.com/benjamin.senechal"><img src="/images/facebook.png" alt="Facebook"/></a>
+              <a href="https://www.twitter.com/Benjaminsene"><img src="/images/twitter.png" alt="Twitter"/></a>
+              <a href="https://www.linkedin.com/in/benjaminsenechal"><img src="/images/linkedin.png" alt="LinkedIn"/></a>
+              <a href="https://www.github.com/benjaminsenechal"><img src="/images/github.png" alt="Github"/></a>
+          </div>
+          <p>© Copyright 2013 Work by Benjamin.</p>
+      </div>
+  </div>
+  </body>
+  <script>
+      var _gaq=[['_setAccount','UA-30844057-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 </html>
