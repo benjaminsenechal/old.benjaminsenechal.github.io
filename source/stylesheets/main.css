@@ -299,19 +299,33 @@ a:hover{
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px){
+
 .content-about{
   width: 100%;
 }
+
 .content-about h4{
   padding-left: 10%;
 }
+
 .items img{
   height: 170px;
+}
+
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .header h1{
   padding-top: 50px;
 }
+
 .image-desc{
   font-size: 15px;
   left:10%;
