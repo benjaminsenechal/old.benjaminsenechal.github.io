@@ -47,7 +47,7 @@ body, h1, h2, h3{
 }
 
 .toggle-custom{
-  background-color: white;
+  background-color: inherit;
 }
 
 .toggle-custom .icon-bar{
@@ -304,6 +304,9 @@ a:hover{
 }
 .content-about h4{
   padding-left: 10%;
+}
+.items img{
+  height: 200px;
 }
 }
 
