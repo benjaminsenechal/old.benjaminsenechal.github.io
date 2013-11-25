@@ -276,7 +276,7 @@ ul{
 .career p {
   padding-top:60px;
   padding-bottom:60px;
-  padding-left: 20%;
+  padding-left: 5%;
   padding-right: 20%;
   text-align: justify;
   color: white;
@@ -348,6 +348,25 @@ a:hover{
   color: #4FBFA8;
 }
 
+.career img{
+  width: 150px;
+  padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.career{
+  margin: 0 auto;
+}
+
+.image-c{
+  width: 40%;
+  text-align: right;
+}
+
+.image-t{
+  width: 60%;
+}
+
 @media screen and (min-width: 200px) and (max-width: 640px){
 
 .content-about{
@@ -378,7 +397,13 @@ a:hover{
 .career p {
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 0;
 }
+
+.image-c{
+  text-align: center;
+  width: inherit;
+ }
 
 .button{
   font-size: 1.1em;
