@@ -1,0 +1,1 @@
+function scroll(o){$("html,body").animate({scrollTop:$("."+o).offset().top},{duration:"fast"})}

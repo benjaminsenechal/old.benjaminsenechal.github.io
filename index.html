@@ -6,12 +6,13 @@
     <meta name="description" content="Benjamin sénéchal - étudiant en ingenierie informatique à l'EPSI">
     <meta name="viewport" content="width=device-width">
 
-    <title>My Website</title>
+    <title>Benjamin Sénéchal</title>
 
     <link rel="stylesheet" href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <script src="/javascripts/vendor/jquery-1.8.0.min.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/js.js"></script>
   </head>
 
   <body class="">
@@ -31,10 +32,11 @@
             <h1>Benjamin Senechal</h1>
           </ul>
           <ul class="nav navbar-nav navbar-right mynav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/cv">CV</a></li>
-              <li><a href="/realisations">Realizations</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('intro');">Home</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('about-t');">About me</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('projects-t');">Work</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('vision-t');">Vision</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('footer');">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -92,7 +94,8 @@
         <li>Ruby - Ruby On Rails : <div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
       </ul>
       <h4>Tools</h4>
-        <p>OOP - REST API - MVC - Merise - UML - GANTT / Xcode - Eclipse - PHPStorm - Git (GitHub) - iTerm - Subversion - Sublime Text 2 - Visual Studio 2010 - Windesign - Microsoft Office - Umbraco (CMS ASP.NET).</p>
+        <p>OOP - MVC - Merise - UML - REST API - Client-Server App - GANTT.<br><br> Xcode - Eclipse - PHPStorm - Git (GitHub) - iTerm - Subversion - Sublime Text 2 - Visual Studio 2010 - Windesign - Microsoft Office - Umbraco (CMS ASP.NET).<br><br> iOS tools : Cocoa Touch, Cocoapods, CoreData, AFNetworking, MagicalRecord, MapKit, DTCoreText etc.</p>
+
       <h4>Environments</h4>
         <p>MacOs X, Windows.</p>
       <h4>Hoobies</h4>
@@ -100,18 +103,18 @@
           <li>I love swim and skiing.</li>
           <li>I read some cool stuffs: QG, L'entreprise, Blogs (Ray Wenderlich, FrenchWeb, iOS Dev Weekly...).</li>
           <li>I hate IT technologies... No it's joke ! Obviously, I like and follow this.</li>
-          <li>I'm a big fan of Motorsports. Formula one & rally.</li>
+          <li>I'm a big fan of Motorsports and especially of Formula one ! </li>
         </ul>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12 link">
-      <a href="" class="button">Download my resume</a>
+      <a href="/uploads/cv_benjamin_senechal_en.pdf" class="button">Download my resume</a>
     </div>
   </div>
 </section>
 <section class="title-section projects-t">
-  <h1>Projects</h1>
+  <h1>Work</h1>
 </section>
 <section class="projects">
   <div class="row">
@@ -120,7 +123,7 @@
         <div class="image-wrap">
           <img class="image" src="/images/presentationepnet.png" alt="crédit agricole"/>
           <div class="image-desc">
-            <h3>EPNet's iPhone application</h3>
+            <h3>EPNet's iPhone application (App store soon)</h3>
             <ul>
                 <li>Xcode 5</li>
                 <li>Git</li>
@@ -152,7 +155,7 @@
   </div>
   <div class="row">
     <div class="col-md-6 items">
-      <a href=""></a>
+      <a href="http://astelle-architecture.fr">
         <div class="image-wrap">
           <img class="image" src="/images/presentationastelle.png" alt="Astelle architecture"/>
           <div class="image-desc">
@@ -160,9 +163,10 @@
             <p>Website of an architectural agency based in Peronne, in France. It realizes various projects, houses or cultural places.</p>
           </div>
         </div>
+        </a>
       </div>
     <div class="col-md-6 items">
-      <a href="">
+      <a href="http://lagrenouillere-frise.fr">
         <div class="image-wrap">
           <img class="image" src="/images/presentationgrenouillere.png" alt="La grenouillere"/>
           <div class="image-desc">
@@ -172,6 +176,23 @@
         </div>
       </a>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 items">
+      <a href="http://benjaminsenechal.com">
+        <div class="image-wrap">
+          <img class="image" src="/images/benjamin.png" alt="Benjamin"/>
+          <div class="image-desc">
+            <h3>My Website</h3>
+            <p>My website powered by Git, Ruby and Middleman.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 items">
+      <a href="">
+      </a>
+  </div>
   </div>
   <div class="row">
     <div class="col-md-12 link">
@@ -219,13 +240,18 @@
           <section class="title-section contact-t">
             <h1>Contact</h1>
           </section>
-          <div class="icons">
+          <div class="row">
+            <div class="col-md-12 email">
+              <a href="mailto:benjamin.senechal1@epsi.fr" class="btn-custom">Contact Me</a>
+            </div>
+            <div class="icons">
               <a href="https://www.facebook.com/benjamin.senechal"><img src="/images/facebook.png" alt="Facebook"/></a>
               <a href="https://www.twitter.com/Benjaminsene"><img src="/images/twitter.png" alt="Twitter"/></a>
               <a href="https://www.linkedin.com/in/benjaminsenechal"><img src="/images/linkedin.png" alt="LinkedIn"/></a>
               <a href="https://www.github.com/benjaminsenechal"><img src="/images/github.png" alt="Github"/></a>
+            </div>
+            <p>© Copyright 2013 Work by <a class="name-link" href="/">Benjamin</a>.</p>
           </div>
-          <p>© Copyright 2013 Work by Benjamin.</p>
       </div>
   </div>
   </body>
