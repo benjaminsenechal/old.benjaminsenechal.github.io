@@ -52,6 +52,7 @@ body, h1, h2, h3{
   font-family: bebasregular;
   color: #CCCCCC;
   padding-left: 10px;
+  display: inline-block;
 }
 
 .name h1:hover{
@@ -325,8 +326,14 @@ ul{
 .name-link{
   color: #4FBFA8;
 }
+
 .name-link:hover{
   text-align: 0;
+}
+
+.name img{
+  margin-bottom: 15px;
+  width:70px;
 }
 
 .footer {
