@@ -119,7 +119,10 @@ body, h1, h2, h3{
 }
 
 .image-wrap:hover .image{
-  -webkit-filter: blur(10px);
+ /* -webkit-filter: blur(10px);*/
+ -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  transition: all linear .2s;
 }
 
 .items img{
