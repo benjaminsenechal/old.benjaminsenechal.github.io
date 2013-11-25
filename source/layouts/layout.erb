@@ -6,12 +6,13 @@
     <meta name="description" content="Benjamin sénéchal - étudiant en ingenierie informatique à l'EPSI">
     <meta name="viewport" content="width=device-width">
 
-    <title><%= current_page.data.title || "Benjamin Sénéchal" %></title>
+    <title>Benjamin Sénéchal</title>
 
     <link rel="stylesheet" href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <script src="/javascripts/vendor/jquery-1.8.0.min.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/js.js"></script>
   </head>
 
   <body class="">
@@ -31,10 +32,11 @@
             <h1>Benjamin Senechal</h1>
           </ul>
           <ul class="nav navbar-nav navbar-right mynav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/cv">CV</a></li>
-              <li><a href="/realisations">Realizations</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('intro');">Home</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('about-t');">About me</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('projects-t');">Work</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('vision-t');">Vision</a></li>
+              <li><a href="javascript:void(0)" onclick="javascript:scroll('footer');">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -42,19 +44,24 @@
         <h1>"Understand, love, want and design the future. Let's not fear it."</h1>
       </div>
       <div class="container-fluid">
-          <%= yield %>
+        <%= yield %>
       </div>
       <div class="footer">
           <section class="title-section contact-t">
             <h1>Contact</h1>
           </section>
-          <div class="icons">
+          <div class="row">
+            <div class="col-md-12 email">
+              <a href="mailto:benjamin.senechal1@epsi.fr" class="btn-custom">Contact Me</a>
+            </div>
+            <div class="icons">
               <a href="https://www.facebook.com/benjamin.senechal"><img src="/images/facebook.png" alt="Facebook"/></a>
               <a href="https://www.twitter.com/Benjaminsene"><img src="/images/twitter.png" alt="Twitter"/></a>
               <a href="https://www.linkedin.com/in/benjaminsenechal"><img src="/images/linkedin.png" alt="LinkedIn"/></a>
               <a href="https://www.github.com/benjaminsenechal"><img src="/images/github.png" alt="Github"/></a>
+            </div>
+            <p>© Copyright 2013 Work by <a class="name-link" href="/">Benjamin</a>.</p>
           </div>
-          <p>© Copyright 2013 Work by Benjamin.</p>
       </div>
   </div>
   </body>

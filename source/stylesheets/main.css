@@ -23,6 +23,21 @@
 
 }
 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
 body, h1, h2, h3{
   font-family: pt_sans_captionregular;
 }
@@ -36,14 +51,20 @@ body, h1, h2, h3{
 .name h1{
   font-family: bebasregular;
   color: #CCCCCC;
+  padding-left: 10px;
 }
 
 .name h1:hover{
+  cursor: pointer;
   color: #4FBFA8;
 }
 
 .mynav a{
   color: white;
+}
+
+.mynav li a:hover{
+  background-color: rgba(58, 117, 188, 1);
 }
 
 .toggle-custom{
@@ -54,11 +75,10 @@ body, h1, h2, h3{
   background-color: #CCCCCC;
 }
 
-.mynav li:hover{
-  color: white;
-  opacity:0.4;
-  filter:alpha(opacity=40);
+.mynav{
+  padding:15px;
 }
+
 
 .cover {
   background: no-repeat center center;
@@ -88,8 +108,8 @@ body, h1, h2, h3{
 
 .image-desc{
   position:absolute;
-  left:20%;
-  bottom: 20%;
+  left:10px;
+  bottom: 50px;
   visibility:hidden;
   color:#4FBFA8;
   font-size: 20px;
@@ -106,7 +126,6 @@ body, h1, h2, h3{
 
 .image-wrap:hover .image{
   -webkit-filter: blur(10px);
-  background-color: #4FBFA8;
 }
 
 .items img{
@@ -123,12 +142,11 @@ body, h1, h2, h3{
 
 .items img:hover{
   -webkit-filter: blur(10px);
-  background-color: #4FBFA8;
   visibility:visible;
 }
 
 .projects{
-  background-color: #90b3dd;
+  background-color: #4f86c9;
   margin-left:auto;
   margin-right:auto;
   width:100%;
@@ -157,7 +175,8 @@ ul{
 .title-section h1{
   margin: 0;
   color: white;
-  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .title-section{
@@ -165,7 +184,7 @@ ul{
 }
 
 .projects-t{
-  background-color: #90B3DD;
+  background-color: #4f86c9;
 }
 
 .about, .about-t{
@@ -244,6 +263,10 @@ ul{
   background-color: #3A75BC;
 }
 
+.vision{
+  padding: 60px;
+}
+
 .attribute img{
   width: 200px;
 }
@@ -263,12 +286,26 @@ ul{
 }
 
 .career p {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top:60px;
+  padding-bottom:60px;
   padding-left: 20%;
   padding-right: 20%;
   text-align: justify;
   color: white;
+}
+
+.btn-custom{
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #4FBFA8;
+}
+
+.btn-custom:hover{
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .footer img{
@@ -285,9 +322,28 @@ ul{
   margin: 0;
 }
 
+.name-link{
+  color: #4FBFA8;
+}
+.name-link:hover{
+  text-align: 0;
+}
+
 .footer {
   background-color: #CCCCCC;
-  text-align: center;
+}
+
+.footer .email{
+  padding: 30px;
+}
+
+.footer .row, .email{
+ text-align: center;
+}
+
+.footer .icons p{
+ text-align: center;
+ width: inherit;
 }
 
 a{
@@ -296,6 +352,7 @@ a{
 }
 a:hover{
   color: #4FBFA8;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px){
@@ -310,11 +367,6 @@ a:hover{
 
 .items img{
   height: 170px;
-}
-
-body {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .navbar {
