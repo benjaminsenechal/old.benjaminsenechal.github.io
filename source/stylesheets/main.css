@@ -125,15 +125,10 @@ body, h1, h2, h3{
   transition: all linear .2s;
 }
 
-.items img{
+.items .image{
   background-repeat: no-repeat;
   padding: 10px;
   height: 300px;
-  -webkit-transition: all 1s ease;
-   -moz-transition: all 1s ease;
-     -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-        transition: all 1s ease;
 }
 
 .projects{
