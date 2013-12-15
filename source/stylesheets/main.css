@@ -347,9 +347,10 @@ a:hover{
 }
 
 .career img{
-  width: 150px;
-  padding-top: 40px;
-padding-bottom: 60px;
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  border:1px solid #fff;
 }
 
 .career{
@@ -357,9 +358,11 @@ padding-bottom: 60px;
 }
 
 .image-c{
+  padding-top: 40px;
   width: 40%;
   text-align: right;
 }
+
 
 .image-t{
   width: 60%;
