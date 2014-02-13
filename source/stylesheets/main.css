@@ -85,7 +85,6 @@ body, h1, h2, h3{
 }
 
 .cover {
-  background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,7 +93,10 @@ body, h1, h2, h3{
 
 .header {
   height: 400px;
-  background: url(/images/cover.jpg) center -200px no-repeat fixed;
+  background-image: url(/images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header h1{
