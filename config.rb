@@ -2,6 +2,7 @@ activate :gzip
 activate :livereload
 activate :syntax
 activate :directory_indexes
+activate :i18n, :mount_at_root => :fr
 
 set :markdown, fenced_code_blocks: true
 set :markdown_engine, :redcarpet

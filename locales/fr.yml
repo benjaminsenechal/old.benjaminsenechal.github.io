@@ -1,0 +1,50 @@
+fr:
+  intro: |
+    <p>Je suis Benjamin Sénéchal, un étudiant en école d'informatique. J'ai 21 ans.</p>
+    <p>Je développe des choses cool. Telles que des applis mobile et web.</p>
+  about:
+    bio: |
+      <p>Je suis né le 23 avril 1993. J'ai obtenu le BAC Scientifique avec la mention assez bien. Ensuite, je suis rentré à l'<a href="http://epsi.fr">EPSI</a>. J'ai étudié les bases des langages de programmation durant mes deux premières années (Notamment web). Durant la troisième année, j'ai appris les méthodes de gestion de projet (Agilité, intégration continue etc.)</p>
+    education: |
+      <ul>
+        <li>2013/2014: 3ème année - B3 - Bachelor @ <a href="http://epsi.fr">EPSI</a></li><br>
+        <li>2012/2013: 2ème année - B2 @ <a href="http://epsi.fr">EPSI</a></li>
+        <li>2 mois de stage en tant que développeur iOS au <a href="https://www.ca-briepicardie.fr/">Crédit Agricole</a>. Rattaché à l'unité innovation, j'ai eu pour mission de travailler sur des solutions innovantes d'interactions entre l'agence et les périphériques mobiles de type tablette ou smartphone. Développement d'une <a href="javascript:void(0)" onclick="javascript:scroll('projects-t');">application iPad</a></li><br>
+        <li>2011/2012: 1ère année - B1 @ <a href="http://epsi.fr">EPSI</a></li>
+        <li>2 mois de stage en tant que développeur web. J'ai participé au développement de sites web ASP.Net avec le CMS Umbraco chez <a href="http://nilobstat.fr">Nilobstat</a></li><br>
+        <li>2010/2011: BAC Scientifique avec mention assez bien @ <a href="http://mendes-france.lyc.ac-amiens.fr/">Pierre Mendes France, Péronne</a></li>
+      </ul>
+    skills:
+      language: |
+        <h4>Langages</h4>
+        <ul>
+          <li>HTML/CSS : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div></li>
+          <li>PHP5 : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div></li>
+          <li>Javascript : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+          <li>SQL : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+          <li>C - C++ : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+          <li>Objective-C : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+          <li>JAVA : <div class="cercle-plein"></div><div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+          <li>Ruby - Ruby On Rails : <div class="cercle-plein"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div><div class="cercle-vide"></div></li>
+        </ul>
+      tools: |
+        <h4>Outils</h4>
+        <p>OOP - MVC - Merise - UML - REST API - Client-Server App - GANTT.<br><br> Xcode - Eclipse - PHPStorm - Git (GitHub) - iTerm - Subversion - Sublime Text 2 - Visual Studio 2010 - Windesign - Microsoft Office - Umbraco (CMS ASP.NET).<br><br> iOS tools : Cocoa Touch, Cocoapods, CoreData, AFNetworking, MagicalRecord, MapKit, DTCoreText etc.</p>
+      environments: |
+        <h4>Environnements</h4>
+        <p>MacOs X, Windows.</p>
+      hoobies: |
+        <h4>Divers</h4>
+        <ul>
+          <li>J'aime faire du sport et plus précisemment, nager, courir et skier :).</li>
+          <li>J'aime lire des choses cool et intéressantes : QG, L'entreprise, Blogs (Ray Wenderlich, 9to5mac, TechCrunch, iOS Dev Weekly...).</li>
+          <li>Je suis un fan de sport automobile et plus particulièrement de la F1 <a href="http://www.kimiraikkonen.com/" alt"kimi">!</a></li>
+          <li>...</li>
+        </ul>
+  vision:
+    school: |
+      <p>L'EPSI, une école. Un apprentissage quotidien.</p>
+    mobility: |
+      <p>La mobilité, l'industrie la plus fleurissante de ces dernières années.</p>
+    web: |
+      <p>Le web, et ses possibilités illimitées.</p>

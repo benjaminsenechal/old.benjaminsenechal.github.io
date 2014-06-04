@@ -1,0 +1,202 @@
+---
+title: My Website
+---
+<section class="intro">
+  <div>
+    <h1>Hello.</h1>
+    <%= t(:intro) %>
+  </div>
+</section>
+<section class="title-section about-t">
+  <h1>About</h1>
+</section>
+<section class="about">
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Bio</h2>
+    </div>
+    <div class="col-md-6 content-about">
+      <%= t("about.bio") %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Education & Experience</h2>
+    </div>
+    <div class="col-md-6 content-about">
+      <%= t("about.education") %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 title-about">
+      <h2>Skills</h2>
+    </div>
+    <div class="col-md-6 content-about">
+        <%= t("about.skills.language") %>
+        <%= t("about.skills.tools") %>
+        <%= t("about.skills.environments") %>
+        <%= t("about.skills.hoobies") %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 link">
+      <% if I18n.locale.to_s == "en" %>
+        <a href="/uploads/resume_benjamin_senechal_en.pdf" class="button">Download my resume</a>
+      <% else %>
+        <a href="/uploads/cv_benjamin_senechal.pdf" class="button">Télécharger mon CV</a>
+      <% end %>
+    </div>
+  </div>
+</section>
+<section class="title-section projects-t">
+  <h1>Work</h1>
+</section>
+<section class="projects">
+  <div class="row">
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a href="https://itunes.apple.com/fr/app/epnet/id771966958"><img class="image" src="/images/epnetiphone.png" alt="epnet application"/></a>
+        <div class="image-desc">
+          <h3>EPNet's iPhone application - late 2013</h3>
+          <a href="https://itunes.apple.com/fr/app/epnet/id771966958"><img src="/images/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="app store"></a>
+          <ul>
+              <li>Xcode 5</li>
+              <li>Git</li>
+              <li>Core data</li>
+              <li>REST API and JSON integration</li>
+              <li>Cocoapods</li>
+              <li>AFNetworking</li>
+              <li>Client - Server App</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 items">
+        <div class="image-wrap">
+        <a href="https://github.com/benjaminsenechal/school-tangram"><img class="image" src="/images/schoolTangram.png" alt="School Tangram"/></a>
+        <div class="image-desc">
+          <h3>School tangram - early 2014</h3>
+          <p>School logo designed in Objective-C</p>
+          <ul>
+              <li>Xcode 5</li>
+              <li>Git</li>
+              <li>UIKit</li>
+              <li>LBBlurredImage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a href="https://github.com/benjaminsenechal/toDoApp"><img class="image" src="/images/todo.png" alt="Benjamin"/></a>
+        <div class="image-desc">
+          <h3>To Do - early 2014</h3>
+          <p>A Simple To Do App.</p>
+          <ul>
+              <li>Xcode 5</li>
+              <li>Git</li>
+              <li>Core Data</li>
+              <li>Parse API</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a href=""><img class="image" src="/images/gossip-app.png" alt="gossip app"/></a>
+        <div class="image-desc">
+          <h3>Gossiping - WIP</h3>
+          <p>I want to develop an old idea. An iOS app inspired by Gossip Girl. Keep connected !</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a href=""><img class="image" src="/images/presentationca.png" alt="crédit agricole"/></a>
+        <div class="image-desc">
+          <h3>Crédit Agricole's iPad application - late 2013</h3>
+          <ul>
+              <li>Xcode 5</li>
+              <li>REST API and JSON integration</li>
+              <li>MapKit</li>
+              <li>AFNetworking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a target="blank" href="http://astelle-architecture.fr"><img class="image" src="/images/presentationastelle.png" alt="Astelle architecture"/></a>
+        <div class="image-desc">
+          <h3>Astelle Architecture - mid 2012</h3>
+          <p>Website of an architectural agency based in Peronne, in France. It realizes various projects, houses or cultural places.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a href="/"><img class="image" src="/images/benjamin.png" alt="Benjamin"/></a>
+        <div class="image-desc">
+          <h3>My Website - late 2013</h3>
+          <p>My website powered by Git, Ruby and Middleman.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 items">
+      <div class="image-wrap">
+        <a target="blank" href="http://lagrenouillere-frise.fr"><img class="image" src="/images/presentationgrenouillere.png" alt="La grenouillere"/></a>
+        <div class="image-desc">
+          <h3>La grenouillère - late 2012</h3>
+          <p>Website of a campsite located closer to the Somme Bay. It welcomes fishermen and tourists.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 link">
+      <a href="http://github.com/benjaminsenechal" class="button">More here during this year</a>
+    </div>
+  </div>
+</section>
+<section class="title-section vision-t">
+  <h1>Vision</h1>
+</section>
+<section class="vision">
+  <div class="row">
+    <!-- Thanks to icons8 -->
+    <div class="col-md-4 attribute">
+      <img class="epsi" src="/images/student2-512-1.png" alt="student">
+        <%= t("vision.school") %>
+    </div>
+    <div class="col-md-4 attribute">
+      <img class="mobile" src="/images/iphone-512-1.png" alt="mobile">
+        <%= t("vision.mobility") %>
+    </div>
+    <div class="col-md-4 attribute">
+      <img class="web" src="/images/mac_client-512-1.png" alt="web">
+        <%= t("vision.web") %>
+    </div>
+  </div>
+</section>
+<section class="title-section career-t">
+  <h1>Career</h1>
+</section>
+<section class="career">
+  <div class="row">
+    <div class="col-md-6 image-c">
+      <img src="/images/profilepicture.jpeg" alt="intern">
+    </div>
+    <div class="col-md-6 content-c">
+      <p>
+      I'm looking for an mobile and web agency for a 4-month internship. A mobile development firm with motivated and passionate team where I could produce good job and enlarge my skills for my future. If you are interesting by a very motivated student, please contact me by the following ways. I have a strong desire to learn and work with new mobile technologies. I'd love to discuss further about my projects, iOS skills and many others things.
+      </p>
+    </div>
+  </div>
+</section>
+
