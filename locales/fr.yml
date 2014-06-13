@@ -1,4 +1,6 @@
 fr:
+  header: |
+    <h1>"Humble, Passioné, Dynamique, Curieux, Intrépide."</h1>
   intro: |
     <p>Je suis Benjamin Sénéchal, un étudiant en école d'informatique. J'ai 21 ans.</p>
     <p>Je développe des choses cool. Telles que des applis mobile et web.</p>
@@ -48,3 +50,8 @@ fr:
       <p>La mobilité, l'industrie la plus fleurissante de ces dernières années.</p>
     web: |
       <p>Le web, et ses possibilités illimitées.</p>
+  career: |
+    <p>
+      Etudiant à l'EPSI, j'ai pour ambition de devenir ingénieur en informatique après mes 5ans d'études. Sérieux et ambitieux, je m'adapte rapidement aux projets (Professionnels et scolaires) et langages qui me sont proposés afin de satisfaire au mieux le client. <br />
+      Actuellement en troisème année, je suis à la recherche d'une entreprise innovante où je pourrais développer et participer aux projets afin d'acquérir une expérience professionelle et des compétences techniques supplémentaires. Je suis à la recherche d'un contrat de professionnalisation pour mes deux dernières années d'études.
+    </p>

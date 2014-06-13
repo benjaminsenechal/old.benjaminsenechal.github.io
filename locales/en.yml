@@ -1,4 +1,6 @@
 en:
+  header: |
+    <h1>"Humble, Passionate, Dynamic, Curious, Comical, Fearless"</h1>
   intro: |
     <p>I'm Benjamin Sénéchal, a french IT student. I'm 21 years old.</p>
     <p>I build some cool things, web and mobile applications.</p>
@@ -50,3 +52,8 @@ en:
         <p>Mobility, the fastest growing industry on earth.</p>
       web: |
         <p>Web and its growing possibilities.</p>
+    career: |
+      <p>
+        I'm looking for an mobile and web agency for a 4-month internship. A mobile development firm with motivated and passionate team where I could produce good job and enlarge my skills for my future. If you are interesting by a very motivated student, please contact me by the following ways. I have a strong desire to learn and work with new mobile technologies. I'd love to discuss further about my projects, iOS skills and many others things.
+      </p>
+
